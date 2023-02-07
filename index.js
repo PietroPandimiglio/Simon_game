@@ -11,6 +11,13 @@ var width = $(window).width();  //width of the screen
 var height = $(window).height();  //height of the screen
 
 //check if the user is using a pc or a smartphone
+$(document).on("keydown", function() {
+    $(".caption").text("Level " + level)
+    blink($(".caption"), 200)
+    blink($(".caption"), 200)
+    setTimeout(nextSequence, 1000)
+  })
+/*
 if ((width >= 1024) && (height >= 768)) {
   $(document).on("keydown", function() {
     $(".caption").text("Level " + level)
@@ -24,7 +31,7 @@ if ((width >= 1024) && (height >= 768)) {
     $(".caption").text("Level " + level)
     setTimeout(nextSequence, 1000)
   })
-}
+}*/
 
 //initialization function
 function start() {
