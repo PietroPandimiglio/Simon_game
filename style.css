@@ -92,3 +92,14 @@ h3{
   text-align: center;
   padding-bottom: 20px;
 }
+
+/* Classi Responsive */
+@media (max-width: 1024px) {
+
+  .tasto{
+    width: 20vh;
+    height: 20vh;
+    margin: 1vh
+  }
+
+}
