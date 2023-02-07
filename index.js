@@ -60,7 +60,7 @@ function checkStart(level) {
       $(".caption").text("Level " + level)
       setTimeout(nextSequence, 1500)
     })
-    $(document).on("tap", function(){
+    $(document).on("click", function(){
       $(".caption").text("Level " + level)
       setTimeout(nextSequence, 1500)
     })
