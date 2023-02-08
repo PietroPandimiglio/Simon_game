@@ -10,7 +10,7 @@ HOW TO PLAY
 3) Congrats, you reached level 1!
 4) Now the game will generate another animation and sound on the next button of the game pattern. That's the last button of the sequence to press! The goal is to remember each previous button in the right sequence to pass the level.
 5) Press the buttons in the right order.
-6) Congrats, you reach level 2!
+6) Congrats, you reached level 2!
 7) REPEAT!  
 
 P.S. 
